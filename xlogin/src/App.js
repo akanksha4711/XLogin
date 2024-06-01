@@ -3,7 +3,7 @@ import './App.css';
 import {useState} from 'react';
 
 function App() {
-  const username = 'username';
+  const username = 'user';
   const password = 'password';
   const [invalid, setInvalid] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
@@ -32,10 +32,10 @@ function App() {
         }
       }}>
         <label name="username">Username: </label>
-        <input name="username" type="text"/>
+        <input required name="username" type="text"/>
         <br/>
         <label name="password">Password: </label>
-        <input name="password" type="password"/>
+        <input required name="password" type="password"/>
         <br/>
         <button type="submit">Submit</button>
       </form>
