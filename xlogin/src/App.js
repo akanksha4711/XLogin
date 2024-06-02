@@ -11,7 +11,7 @@ function App() {
     return (
       <div className='App'>
         <h1>Login Page</h1>
-        <div>Welcome, User!</div>
+        <div>Welcome, user!</div>
       </div>
     )
   }
